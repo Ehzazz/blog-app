@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
+import Topbar from './components/topbar/Topbar'
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Write from "./pages/Write";
+import Settings from "./pages/Settings"
+import Single from "./pages/Single"
+import Login from "./components/login/Login"
+import Register from './components/register/Register'
+
+
+import {
+  BrowserRouter,
+  Route,
+  Link,
+  Routes,
+  useNavigate,
+} from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Topbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/WRITE" element={<Write />} />
+          <Route path="/ABOUT" element={<About />} />
+          <Route path="/PROFILE" element={<Settings />} />
+          <Route path="/CONTACT" element={<Single />} />
+          <Route path="/LOGIN" element={<Login />} />
+          <Route path="/REGISTER" element={<Register />} />
+
+       
+        </Routes>
+      </BrowserRouter>
+      
+      
+    </>
   );
 }
 
