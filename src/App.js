@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Topbar />
+        < Topbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/WRITE" element={<Write />} />

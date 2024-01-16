@@ -7,16 +7,18 @@ import Posts from "../components/posts/Posts";
 const Home = () => {
   return (
     <>
-      <Header />
-      <div className="flex w-full sm:flex-row">
-        <div className="w-[75%] ">
-          <Posts />
-        </div>
-        <div className="w-[25%] bg-gray-50">
-          <Sidebar />
-        </div>
+    <div className="">
+    <Header />
+    </div>
+    <div className="flex flex-col sm:flex-row">
+      <div className="w-full sm:w-full md:w-[75%]">
+        <Posts />
       </div>
-    </>
+      <div className="hidden sm:flex w-full md:w-[25%] bg-gray-50">
+        <Sidebar />
+      </div>
+    </div>
+  </>
   );
 };
 

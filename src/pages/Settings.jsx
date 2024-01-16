@@ -31,7 +31,7 @@ const Settings = () => {
           <button className="bg-blue-900 rounded-lg hover:bg-blue-700 text-white w-[80px] h-10" type="button">Update</button>
         </div>
       </div>
-      <div className="w-[25%]">
+      <div className="md:w-[25%] sm:hidden">
         <Sidebar/>
       </div>
     </div>

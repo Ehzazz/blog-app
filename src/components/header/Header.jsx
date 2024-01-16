@@ -4,7 +4,7 @@ const Header = () => {
     <div className="w-full h-[440px] ">
       <div className="relative w-full mt-[60px]">
         <img
-          className="mt-[80px] object-cover absolute w-full h-[430px]"
+          className="mt-[80px] object-cover absolute  w-full h-[430px] "
           src="https://images.unsplash.com/photo-1502224562085-639556652f33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=828&q=80"
           alt="BCCDSS"
         />

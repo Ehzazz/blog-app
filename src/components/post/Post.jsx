@@ -3,10 +3,10 @@ import React from "react";
 const Post = () => {
   return (
     <div>
-      <div className="w-[375px] mt-0 mr-5 mb-20 ml-20 leading-relaxed">
+      <div className="md:w-[375px] sm:w-auto mt-0 mr-5 mb-20 ml-20 leading-relaxed">
         <div>
           <img
-            className="w-[100%] h-[280px] bg-cover rounded-md"
+            className="w-[100%] md:h-[280px] sm:w-auto sm:h-[200px] bg-cover rounded-md"
             src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=975&q=80"
             alt=""
           />
