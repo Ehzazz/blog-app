@@ -8,7 +8,7 @@ const Single = () => {
       <div className='w-[75%]'>
       <Singlepost/>
       </div>
-      <div className='w-[25%]'>
+      <div className=' hidden sm:flex w-full md:w-[25%]'>
         <Sidebar/>
         </div>
         

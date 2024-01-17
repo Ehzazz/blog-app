@@ -3,7 +3,7 @@ import React from "react";
 const Post = () => {
   return (
     <div>
-      <div className="md:w-[375px] sm:w-auto mt-0 mr-5 mb-20 ml-20 leading-relaxed">
+      <div className="md:w-[375px] sm:w-auto  mt-0 mr-5 mb-20 ml-5 md:ml-20 leading-relaxed">
         <div>
           <img
             className="w-[100%] md:h-[280px] sm:w-auto sm:h-[200px] bg-cover rounded-md"

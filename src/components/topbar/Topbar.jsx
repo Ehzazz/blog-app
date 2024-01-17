@@ -35,8 +35,8 @@ const Topbar = () => {
   const user = false;
 
   return (
-    <div className="w-full bg-white sticky top-0 z-50 ">
-      <div className="flex flex-col sm:flex-row sm:w-full sm:mt-6 leading-relaxed   ">
+    <div className="w-full bg-white sticky md:pt-0 pt-3 top-0 z-50 ">
+      <div className="flex flex-col sm:flex-row sm:w-full sm:mt-3 pb-2 leading-relaxed   ">
         <div className="flex justify-center md:w-[30%] sm:mt-6 ">
           <i className="fa-brands fa-lg fa-square-facebook"></i>
           <i className="ml-2 fa-brands fa-lg fa-instagram"></i>
